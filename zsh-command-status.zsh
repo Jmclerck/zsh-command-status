@@ -1,7 +1,7 @@
 function command_status() {
   if [[ $? == 0 ]]; then
-    print "%{$fg[green]%} %{$reset_color%}"
+    print "%{$fg[green]%}%{$reset_color%}"
   else
-    print "%{$fg[red]%} %{$reset_color%}"
+    print "%{$fg[red]%}%{$reset_color%}"
   fi
 }
